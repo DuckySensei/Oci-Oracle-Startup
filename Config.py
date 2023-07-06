@@ -21,10 +21,10 @@ print(user)
 }
 
 config = {
-    "user" : "ocid1.user.oc1..aaaaaaaa4x67pgdfjxfewn2hpeqrqpl54b64eqrsnaild5o7we4gak7l5efq",
+    "user" : "-- my config",
     "key_file" : "~\Users\dmant\OneDrive\Documents\mykey.ppk",
-    "fingerprint" : "ssh-rsa 2048 SHA256:mQ/V1I74E9goA/AEFMqgZN/ctvdxggMJQBLnL93kw8k",
-    "tenancy" : "ocid1.tenancy.oc1..aaaaaaaa2sj6xvapwc6jtyb53uz55lqg7sraa2nfu6mynd3ltgcu6ynt6eeq",
+    "fingerprint" : "my finger print",
+    "tenancy" : "my config",
     "region" : "US Midwest (Chicago)"
 }
 
