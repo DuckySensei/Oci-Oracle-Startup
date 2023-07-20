@@ -2,6 +2,7 @@ import requests
 import json 
 import copy
 
+#Update the URL to specify which currency you're searching for
 url = 'https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/?currencyCode=USD'
 
 item_id = 1
@@ -29,6 +30,8 @@ for item in data['items']:
       }
 
       item_id += 1
+
+#This is specifically used for 'Redline13.com', If you wanted to produce a json of your own, comment out these next 2 lines.
 
 for i in range(1001, 1035):
   vm_data["onDemandOracle"]['1000'][str(i)] = copy.deepcopy(vm_data["onDemandOracle"]['1000'])
